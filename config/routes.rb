@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :user, only: %i[index show]
-  resources :day, only: %i[index]
-  resources :meal, only: %i[index]
-  resources :route, only: %i[index]
+  resources :users, only: %i[index show]
+  resources :days, only: %i[index]
+  resources :meals, only: %i[index]
+  resources :recipes, only: %i[index]
 end
