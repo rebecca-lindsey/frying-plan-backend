@@ -1,3 +1,7 @@
 class DaysController < ApplicationController
-  def index; end
+  def index
+    user = User.find(params[:user_id])
+    days = user.days
+    render json: days
+  end
 end
