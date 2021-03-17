@@ -1,6 +1,3 @@
 class RecipeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :category, :cuisine, :recipeingredients, :instructions
-  def ingredients
-    object.ingredients.to_json
-  end
+  attributes :id, :name, :category, :cuisine, :recipe_ingredients, :instructions
 end
