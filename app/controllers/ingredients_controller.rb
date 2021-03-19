@@ -3,4 +3,8 @@ class IngredientsController < ApplicationController
     ingredients = Ingredient.all
     render json: ingredients, include: ['recipes']
   end
+
+  def create
+    byebug
+  end
 end
