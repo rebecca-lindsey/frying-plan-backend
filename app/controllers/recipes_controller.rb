@@ -6,7 +6,6 @@ class RecipesController < ApplicationController
 
   def create
     Recipe.create(recipe_params)
-    byebug
   end
 
   def show
