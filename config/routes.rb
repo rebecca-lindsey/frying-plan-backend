@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   end
 
   resources :meals, only: %i[index]
-  resources :recipes, only: %i[index]
+  resources :recipes, only: %i[index create show]
   resources :ingredients, only: %i[index]
 end
