@@ -5,7 +5,8 @@ class RecipesController < ApplicationController
   end
 
   def create
-    Recipe.create(recipe_params)
+    recipe = Recipe.create(recipe_params)
+    render json: recipe
   end
 
   def show
