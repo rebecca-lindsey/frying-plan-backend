@@ -9,6 +9,16 @@ class MealsController < ApplicationController
     render json: meal
   end
 
+  def show
+    meal = Meal.find(params[:id])
+    render json: meal
+  end
+
+  def destroy
+    meal = Meal.find(params[:id])
+    meal.destroy
+  end
+
   def meal_params
     params.require(:meal).permit(:name, :recipe_id, :day_id)
   end
