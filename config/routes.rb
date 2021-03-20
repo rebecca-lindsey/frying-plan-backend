@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     resources :days, only: %i[index]
   end
 
-  resources :meals, only: %i[index]
+  resources :meals, only: %i[index create]
   resources :recipes, only: %i[index create show]
   resources :ingredients, only: %i[index]
 end
