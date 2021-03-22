@@ -74,3 +74,9 @@ Pull Requests are welcome on [GitHub](https://github.com/rebeccahickson/frying-p
 <a href="https://youtu.be/qSS3lEykFlE
 " target="_blank"><img src="http://img.youtube.com/vi/qSS3lEykFlE/0.jpg" 
 alt="Screenshot of project walkthrough" width="240" height="180" border="10" /></a>
+
+## Further Reading
+
+[Handling Nested Attributes with a Has Many Through Association with Rails API](https://levelup.gitconnected.com/handling-nested-attributes-with-a-has-many-through-association-with-rails-api-f91729547ea5)
+
+A guide to handling nested attributes with a has_many :through association with Rails and React/Redux
