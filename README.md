@@ -68,3 +68,9 @@ The program is available as open source under the terms of the [MIT License](htt
 ## Collaborating
 
 Pull Requests are welcome on [GitHub](https://github.com/rebeccahickson/frying-plan-backend). This project is intended to be a safe, welcoming space for collaboration.
+
+## Project Walkthrough
+
+<a href="https://youtu.be/qSS3lEykFlE
+" target="_blank"><img src="http://img.youtube.com/vi/qSS3lEykFlE/0.jpg" 
+alt="Screenshot of project walkthrough" width="240" height="180" border="10" /></a>
